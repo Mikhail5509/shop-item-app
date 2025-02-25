@@ -1,6 +1,7 @@
 import React from 'react';
-import ShopItemClass from './ShopItemClass';
-import './App.css';
+import ShopItemClass from './ShopItemClass.jsx';
+import "./App.css";
+
 
 function App() {
   const item = {

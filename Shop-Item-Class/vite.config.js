@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { ghPages } from 'vite-plugin-gh-pages';
 
 export default defineConfig({
-  plugins: [react(), ghPages()],
-  base: '/shop-item-app/', 
+  plugins: [react()],
+  base: '/shop-item-app/', // если нужно деплоить на GitHub Pages
+  build: {
+    outDir: 'dist', // убедитесь, что выходная папка указана правильно
+  },
 });
