@@ -1,5 +1,5 @@
 import React from 'react';
-import ShopItemClass from './ShopItemClass.jsx';
+import ShopItemClass from "./ShopItemClass.jsx";
 import "./App.css";
 
 

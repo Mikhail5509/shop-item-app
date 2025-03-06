@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import './App.css';
+import previewImage from "./assets/preview.png";
 
+<img src={previewImage} alt="Leonard Coat" />
 
 class ShopItemClass extends Component {
   render() {
